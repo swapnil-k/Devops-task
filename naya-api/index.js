@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 
 var io = require('socket.io')(http, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://naya-web-nznegpbkqa-el.a.run.app",
     methods: ["GET", "POST"]
   }
 })

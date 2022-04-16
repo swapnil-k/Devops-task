@@ -43,7 +43,7 @@ resource "google_cloud_run_service" "app" {
 
         env {
           name = MONGO_URI
-          value = "mongodb://root:Vmnqjrvkv5Zc@3.111.46.209:27017/?authSource=admin"
+          value = ""
         }
         env {
           name = env
